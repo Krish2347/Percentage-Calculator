@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Percentage calculator</title>
+    <style type="text/css" media="all">
+      body{
+        background-color: blue;
+       color: yellow;
+        background-repeat: no-repeat;
+      }
+      p{
+      	text-align:center;
+      }
+    </style>
+</head>
+
+<body>
+  <div>
+    
+  <h1>The Percentage calculator</h1>
+  <p> refresh the page to calculate again </p>
+<script>
+  var num1 = prompt("enter marks gained");
+  var num2 = prompt("enter total marks");
+  a = num1
+  b = num2
+  function pre(a, b){
+  return(a/b*100);
+  }
+  c = pre(num1, num2)
+  alert(c + "%")
+</script>
+  </div>
+</body>
+
+</html>
